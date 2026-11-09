@@ -58,10 +58,10 @@ def ask(req: AskRequest):
 
     try:
         # The SDK runs the tool call and sends the result back to the model automatically.
-        resp = client.models.generate_content(
+                     resp = client.models.generate_content(
             model=MODEL,
             contents=req.question,
-                         config=types.GenerateContentConfig(
+            config=types.GenerateContentConfig(
                 system_instruction=SYSTEM.format(today=date.today().isoformat()),
                 tools=[get_next_deadline],
             ),
