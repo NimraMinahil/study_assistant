@@ -3,12 +3,12 @@ from datetime import date
 
 # Apni asli courses/assignments yahan daal dein (ya database se load karein).
 ASSIGNMENTS = [
-    {"course": "Mathematics", "title": "Assignment 3 - Calculus", "due": "2026-11-10"},
-    {"course": "Mathematics", "title": "Assignment 4 - Integration", "due": "2026-11-24"},
-    {"course": "Physics", "title": "Lab Report 2", "due": "2026-11-12"},
-    {"course": "Computer Science", "title": "Project Milestone 1", "due": "2026-11-15"},
-    {"course": "Computer Science", "title": "Assignment 5 - Algorithms", "due": "2026-11-29"},
-    {"course": "English", "title": "Essay Draft", "due": "2026-11-20"},
+    {"course": "Mathematics", "title": "Assignment 3 - Calculus", "due": "2027-09-10"},
+    {"course": "Mathematics", "title": "Assignment 4 - Integration", "due": "2027-11-24"},
+    {"course": "Physics", "title": "Lab Report 2", "due": "2027-12-12"},
+    {"course": "Computer Science", "title": "Project Milestone 1", "due": "2027-09-15"},
+    {"course": "Computer Science", "title": "Assignment 5 - Algorithms", "due": "2027-10-05"},
+    {"course": "English", "title": "Essay Draft", "due": "2027-12-20"},
 ]
 
 
