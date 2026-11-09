@@ -57,8 +57,8 @@ def ask(req: AskRequest):
         return output
 
     try:
-        # The SDK runs the tool call and sends the result back to the model automatically.
-                     resp = client.models.generate_content(
+        # The SDK runs the tool call and sends the result back to the model automatically.                   
+        resp = client.models.generate_content(
             model=MODEL,
             contents=req.question,
             config=types.GenerateContentConfig(
