@@ -40,7 +40,7 @@ Mac/Linux par activate ke liye: `source venv/bin/activate`
 
 ```
 GEMINI_API_KEY=aapki-key
-GEMINI_MODEL=gemini-3.8-flash
+GEMINI_MODEL=gemini-3.5-flash-lite
 ```
 
 `GEMINI_MODEL` optional hai. Agar model ka naam purana ho ya limit khatam ho jaye, to AI Studio ki list se koi dusra available model likh dein.
