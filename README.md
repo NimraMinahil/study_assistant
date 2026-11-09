@@ -63,13 +63,12 @@ Open `http://127.0.0.1:8000/docs` in your browser, click **POST /ask**, click **
 Example response:
 
 ```json
-{
-  "answer": "Your next Physics assignment, Lab Report 2, is due on January 12, 2027.",
+{  "answer": "Your next Physics assignment, Lab Report 2, is due on December 12, 2027.",
   "tool_calls": [
     {
       "name": "get_next_deadline",
       "input": {"course": "Physics"},
-      "output": {"found": true, "course": "Physics", "title": "Lab Report 2", "due_date": "2027-01-12", "days_left": 64}
+           "output": {"found": true, "course": "Physics", "title": "Lab Report 2", "due_date": "2027-12-12", "days_left": 398}
     }
   ]
 }
